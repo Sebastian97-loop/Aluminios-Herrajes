@@ -1,0 +1,443 @@
+*{
+  scroll-behavior: smooth;
+}
+
+:root{
+  --orange-main: #FFA801;
+  --orange-soft:  #FFC048;
+  --color-leter:  #E0DFDF;
+  --color-secondary: #009ED6;
+  --blur-soft:  #575FCF;
+  --blue-dark:  #3C40C6;
+  --blue-cloud:  #4BCFFA;
+  --blue-cloud-dark: #0FBCF9;
+  --green-soft:   #0BE881;
+  --green-dark:  #05C46B;
+  --linear-orange:  linear-gradient(89.76deg, #FFC048 2.14%, rgba(196, 196, 196, 0) 99.79%);
+}
+body{
+	background: linear-gradient(180deg, rgba(77, 67, 194, 0.13) 0%, rgba(11, 232, 129, 0.2) 53.65%, rgba(75, 207, 250, 0.13) 99.48%);
+	background-repeat: no-repeat;
+	height: 380vh;
+
+}
+
+.header{
+  width: 100%;
+  height: 14rem;
+  background-color: var(--orange-soft);
+}
+.header1{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header1__logo{
+  margin: 1.3rem 3.7rem;
+}
+.header__logo--description{
+  position: relative;
+  top: 0.7px;
+  left: 15px;
+}
+
+
+.header1__search{
+  margin-top: 2.6rem;
+  height: 37px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 60px;
+}
+.header1__search--form form{
+  display: flex;
+  justify-content: space-between;
+}
+.header1__search--form input{
+  height: 35px;
+  width: 200px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.header1__search--form a img{
+  margin: 6px;
+}
+
+.header1__contact{
+  position: relative;
+  right: 40px;
+}
+.header1__contact--icon img{
+  position: relative;
+  top: 17px;
+}
+.header1__contact--icon a{
+  font-size: 2rem;
+  margin-left: 15px;
+  font-weight: bold;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header1__contact--icon a:hover{
+  color: var(--color-leter);
+}
+.header1__contact h3{
+  text-align: center;
+  font-size: 1.9rem;
+  margin-right: 0px;
+  margin-top: 4px;
+}
+
+/* aquí se acaba la parte del header superior, ahora sigue el inferior */
+
+.header2{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.header2-location{
+  display: flex;
+  margin-left: 36px;
+}
+.header2-location img{
+  width: 42px;
+}
+
+.header2-location__contain{
+    position: relative;
+    bottom: 25px;
+}
+
+.header2-location h4{
+  font-size: 1.7rem;
+  margin-left: 10px;
+  margin-top: 28px;
+}
+.header2-location__contain a{
+ font-size: 1.8rem; 
+ color: var(--blue-cloud);
+ margin-bottom: 16px;
+ position: relative;
+ bottom: 19px;
+}
+
+.header2-links{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 280px 0 0 ;
+  font-size: 1.4rem;
+  list-style: none;
+  margin-right: 10px;
+}
+
+
+.header2-links li a{
+  font-weight: 700;
+  color: #2b2b2b;
+  text-decoration: none;
+
+}
+.header2-links a:hover{
+  color: #585858;
+}
+/* terminamos con la parte de el header */
+
+.main{
+  width: 100%;
+  height: 455px;
+  background-image: url("../img/img/background1.jpg");
+  background-repeat: round;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.carrouser__description{
+  width: 60rem;
+  height: 90px;
+  background: rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  margin-bottom: 4.3rem;
+}
+.carrouser__description p{
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+/* terminamos la parte de el main  */
+
+/* empezamos en el section description */
+
+ .section-description{
+  width: 100%;
+  height: 434px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.section-description__contain--grid{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  margin: auto;
+  margin-left: 5rem;
+  padding-top: 50px;
+  grid-gap: 17px;
+}
+
+.section-description__contain--grid ol{
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  height: 300px;
+}
+.section-description__contain--grid ol p{
+  text-align: center;
+  font-size: 2rem;
+  color: #6c6c6c;
+  font-weight: bold;
+  margin-right: 17px;
+}
+
+.section-description__contain--grid1 img{
+  width: 250px;
+  position: relative;
+  top: 16px;
+  margin-bottom: 40px;
+  display: block;
+  margin: auto;
+}
+.section-description__contain--grid1 p{
+  display: block;
+  margin-top: 70px;
+}
+
+.section-description__contain--grid2 img{
+  width: 200px;
+  display: block;
+  margin: auto; 
+}
+.section-description__contain--grid2 p{
+  margin-top: 9px; 
+}
+.section-description__contain--grid3 img{
+  width: 200px;
+  margin-top: 1px;
+  display: block;
+  margin: auto;
+}
+.section-description__contain--grid3 img{
+  width: 200px;
+  display: block;
+  margin: auto;
+} 
+
+/* se termina el secction description */
+/* empezamos con el aparatado de cielo rasos y muros */
+
+.section-cielo-raso{
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(89.76deg, #FFC048 2.14%, rgba(196, 196, 196, 0) 99.79%);
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.section-cielo-raso__description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.section-cielo-raso__description h1{
+    font-size: 4rem;
+    width: 36rem;
+    text-align: center;
+    margin-bottom: 45px;
+    color: #fff;
+    font-weight: bold;
+    align-self: center;
+}
+.section-cielo-raso__description p{
+  display: block;
+  font-size: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  align-self: center;
+  border: 1px solid transparent;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  padding: 10px;
+}
+.section-cieloraso__links{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+.section-cieloraso__links a{
+  padding: 20px;
+  background: #C4C4C4;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin: auto;
+  text-decoration: none;
+  color: #fff
+}
+
+.section-cieloraso__links--1{
+  grid-column: 1/2;
+}
+
+.section-cieloraso__links--2{
+  grid-column: 3/4;
+}
+.section-cieloraso__links--3{
+  grid-column: 1/4;
+}
+
+.section-cieloraso__links-h1{
+  display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* se termina la primera seccion de links */
+/* seccion de imagen del rodillo */
+
+.section-roller{
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/img/rodillo.jpg");
+  background-repeat: round;
+  display: flex;
+  margin-top: 20px;
+}
+.section-roller h4{
+  width: 56%;
+  margin-left: 25px;
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+}
+
+/* Termina seccion de el rodillo */
+
+.section-paint{
+  width: 100%;
+  height: 570px;
+  background: linear-gradient(89.76deg, #FFC048 2.14%, rgba(196, 196, 196, 0) 99.79%);
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.section-paint__links{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  margin-left: 15px;
+}
+.section-paint__links a{
+  padding: 10px 50px;
+  background: #ffff;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 4px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.section-paint__links--1{
+  grid-column: 1/2;
+}
+
+.section-paint__links--2{
+  grid-column: 3/4;
+}
+.section-paint__links--2 img{
+  width: 157px;
+  height :159px;
+  object-fit: cover;
+}
+.section-paint__links--3{
+  grid-column: 1/4;
+}
+
+.section-paint__description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.section-paint__description h1{
+    font-size: 4rem;
+    width: 36rem;
+    text-align: center;
+    margin-bottom: 45px;
+    color: #fff;
+    font-weight: bold;
+    align-self: center;
+}
+.section-paint__description p{
+  display: block;
+  font-size: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  align-self: center;
+  border: 1px solid transparent;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+/* footer */
+
+.footer{
+  margin-top: 60px;
+}
+.footer-contain{
+  width: 100%;
+  height: 124px;
+  background: #E8E6E8;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-contain__social{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+
+}
+.footer-contain__social--title{
+  font-size: 3rem;
+}
+.footer-contain__social--title a{
+  text-decoration: none;
+  color: rgb(59, 58, 58);
+  font-weight: bold;
+}
+.footer-contain__social--instagram img{
+  width: 60px;
+  height: 60px;
+}
+.footer-contain__social--facebook img{
+ /*  width: 60px;
+  height: 60px; */
+}
+.footer-contain__social--whatsapp img{
+  width: 60px;
+  height: 60px;
+}
+
+.created-by{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  line-height: 10px;
+}
