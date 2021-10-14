@@ -1,0 +1,20 @@
+<svg width="178" height="140" viewBox="0 0 178 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="89" height="140" fill="white"/>
+<rect x="83.9622" width="5.03774" height="140" fill="#DEDEDE"/>
+<rect y="140" width="6.32258" height="89" transform="rotate(-90 0 140)" fill="#DEDEDE"/>
+<ellipse cx="21.6203" cy="32.9166" rx="9.02594" ry="10" fill="#FFA801"/>
+<ellipse cx="28.4059" cy="76.7069" rx="11.5363" ry="13.9583" fill="#FFA801"/>
+<ellipse cx="67.7995" cy="18.125" rx="9.02594" ry="9.375" fill="#FFA801"/>
+<ellipse cx="52.2665" cy="49.375" rx="6.50708" ry="6.45833" fill="#FFA801"/>
+<ellipse cx="25.3293" cy="113.927" rx="2.95104" ry="3.57062" fill="#FFA801"/>
+<ellipse cx="64.2835" cy="106.31" rx="16.3291" ry="19.7574" fill="#FFA801"/>
+<rect width="89" height="140" transform="matrix(-1 0 0 1 178 0)" fill="white"/>
+<rect width="5.03774" height="140" transform="matrix(-1 0 0 1 94.0378 0)" fill="#DEDEDE"/>
+<rect width="6.32258" height="89" transform="matrix(0 -1 -1 0 178 140)" fill="#DEDEDE"/>
+<ellipse rx="9.02594" ry="10" transform="matrix(-1 0 0 1 156.38 32.9166)" fill="#FFA801"/>
+<ellipse rx="11.5363" ry="13.9583" transform="matrix(-1 0 0 1 149.594 76.7069)" fill="#FFA801"/>
+<ellipse rx="9.02594" ry="9.375" transform="matrix(-1 0 0 1 110.2 18.125)" fill="#FFA801"/>
+<ellipse rx="6.50708" ry="6.45833" transform="matrix(-1 0 0 1 125.734 49.375)" fill="#FFA801"/>
+<ellipse rx="2.95104" ry="3.57062" transform="matrix(-1 0 0 1 152.671 113.927)" fill="#FFA801"/>
+<ellipse rx="16.3291" ry="19.7574" transform="matrix(-1 0 0 1 113.717 106.31)" fill="#FFA801"/>
+</svg>
